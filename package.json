@@ -7,8 +7,10 @@
   "license": "MIT",
 
   "scripts": {
+    "build": "npx tsc",
     "test": "mocha --require ts-node/register tests/**/*.ts"
   },
+
 
   "devDependencies": {
     "@types/mocha": "^10.0.10",
@@ -17,4 +19,5 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
   }
+
 }

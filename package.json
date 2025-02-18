@@ -5,19 +5,20 @@
   "repository": "https://github.com/GenerelSchwerz/mineflayer-unit-testing",
   "author": "Rocco A <43506958+GenerelSchwerz@users.noreply.github.com>",
   "license": "MIT",
-
   "scripts": {
     "build": "npx tsc",
     "test": "mocha --require ts-node/register tests/**/*.ts"
   },
-
-
   "devDependencies": {
     "@types/mocha": "^10.0.10",
     "expect": "^29.7.0",
     "mocha": "^11.1.0",
     "ts-node": "^10.9.2",
+    "typed-emitter": "^2.1.0",
     "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@types/ps-tree": "^1.1.6",
+    "ps-tree": "^1.2.0"
   }
-
 }
